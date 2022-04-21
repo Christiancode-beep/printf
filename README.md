@@ -1,68 +1,65 @@
-printf
-The project consists of normal functions, derived functions a man page and a README.md file.
+**printf**
 
-This produces output according to a format specifiers,as shown below.
+This is the first group project for done by Christian Anichebe and Ogbodo Ogonna for ALX Software Engineering program, which involves
 
-   _printf("Length:[%d, %i]\n", len, len);
+replicating a formatted output conversion for standard C program printf and calling it as **_printf.**
 
+**Dependencies**
 
-printf("Length:[%d, %i]\n", len2, len2);
+The _printf function was coded on an Ubuntu 20.04 LTS machine with gcc version 11.2.
 
+**Parameters Used**
 
-_printf("Negative:[%d]\n", -762534);
+The following format types was chosen for this project:
 
+**Type	       Output	                         Example**
 
-printf("Negative:[%d]\n", -762534);
+**C**	          Character	                       **A**
 
+**s**     	String of characters	                  **ALX**
 
-_printf("Unsigned:[%u]\n", ui);
+**%**	This will write a single % to the stream	    **%**
 
+**i** and d	Signed decimal integer	               **98**
 
-printf("Unsigned:[%u]\n", ui);
+**b**	Unsigned binary	                         **10101**
 
+**u**	Unsigned decimal integer	                 **98**
 
-_printf("Unsigned octal:[%o]\n", ui);
+**o**	Unsigned octal	                            **5523**
 
+**x**	Unsigned hexadecimal integer (lowercase)	**36264ad**
 
-printf("Unsigned octal:[%o]\n", ui);
+**X**	Unsigned hexadecimal integer (uppercase)	**37854AB**
 
+**r**	Reserved string	                       **gnirts**
 
-_printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui);
+**R**	Rot13 string	                            **cevags**
 
+**Description**
 
-printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui);
+This is a formatted output of the standard printf function in C. Our project required a function capable of printing with the %d, %c,
 
+%s, and %% specifiers to standard output. _printf returns the number of characters printed (excluding the null byte at the end of
 
-_printf("Character:[%c]\n", 'H');
+strings). We were not asked to handle flag characters, field width, precision, or length.
 
+**How to use**
 
-printf("Character:[%c]\n", 'H');
+All of the .c files along with a main.c file are to be compiled with gcc 11.2 on Ubuntu 20.04 LTS with the flags below:
 
+$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 
-_printf("String:[%s]\n", "I am a string !");
+**Contributors**
 
+Christian Anichebe Christianobinna71@gmail.com
 
-printf("String:[%s]\n", "I am a string !");
-
-
-_printf("Address:[%p]\n", addr);
-
-
-printf("Address:[%p]\n", addr);
-
-
-len = _printf("Percent:[%%]\n");
-
-
-len2 = printf("Percent:[%%]\n");
-
-
-_printf("Len:[%d]\n", len);
+Ogonna Ogbonna ogbodojoseph62@gmail.com
 
 
-printf("Len:[%d]\n", len2);
+**Acknowledgments**
 
+The _printf function emulates functionality of the C standard library function printf. This README is curated from the Linux man page
 
-_printf("Unknown:[%r]\n");
-
-It is developed by Christian Anichebe and Ogbodo Ogonna from Cohort 5
+**printf(3)
+**
