@@ -54,7 +54,7 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 
 Christian Anichebe Christianobinna71@gmail.com
 
-Ogonna Ogbonna ogbodojoseph62@gmail.com
+Ogbodo Ogbonna ogbodojoseph62@gmail.com
 
 
 **Acknowledgments**
