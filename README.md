@@ -1,6 +1,6 @@
 **printf**
 
-This is the first group project for done by Christian Anichebe and Ogbodo Ogonna for ALX Software Engineering program, which involves
+This is the first group project for done by **Christian Anichebe and Ogbodo Ogonna for ALX Software Engineering program**, which involves
 
 replicating a formatted output conversion for standard C program printf and calling it as **_printf.**
 
@@ -61,5 +61,4 @@ Ogbodo Ogbonna ogbodojoseph62@gmail.com
 
 The _printf function emulates functionality of the C standard library function printf. This README is curated from the Linux man page
 
-**printf(3)
-**
+**printf(3)**
